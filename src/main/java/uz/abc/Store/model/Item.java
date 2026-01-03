@@ -17,7 +17,6 @@ public class Item {
     private String description;
     private Double price;
 
-    // stores uploaded file path
     private String path;
 
     @ManyToOne

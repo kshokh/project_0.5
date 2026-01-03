@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    // 404 - Resource Not Found
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleNotFound(
             ResourceNotFoundException ex,
@@ -29,7 +28,6 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>( error, HttpStatus.NOT_FOUND );
     }
 
-    // 400 - Validation Errors
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidation(
             MethodArgumentNotValidException ex,
@@ -51,7 +49,6 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>( error, HttpStatus.BAD_REQUEST );
     }
 
-    // 500 - Generic Exception
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGlobal(
             Exception ex,
