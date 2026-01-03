@@ -1,4 +1,6 @@
+package uz.abc.Store.service;
 
+import uz.abc.Store.model.Upload;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

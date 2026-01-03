@@ -1,4 +1,7 @@
+package uz.abc.Store.controller;
 
+import uz.abc.Store.service.FileStorageService;
+import uz.abc.Store.model.Upload;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 

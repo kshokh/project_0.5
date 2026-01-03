@@ -1,3 +1,4 @@
+package uz.abc.Store.model;
 
 import jakarta.persistence.*;
 import lombok.*;
