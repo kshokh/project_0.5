@@ -1,10 +1,11 @@
+package uz.abc.Store;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookCrudApplication {
+public class StoreServiceApplication {
     public static void main( String[] args ) {
-        SpringApplication.run( BookCrudApplication.class, args );
+        SpringApplication.run( StoreServiceApplication.class, args );
     }
 }
