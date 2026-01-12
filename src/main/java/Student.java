@@ -10,5 +10,4 @@ import org.hibernate.annotations.NamedQuery;
 )
 @EntityListeners(AuditLogger.class)
 public class Student {
-    // fields
 }
