@@ -1,7 +1,9 @@
 package uz.pdp;
 
+import lombok.Getter;
 import org.springframework.hateoas.RepresentationModel;
 
+@Getter
 public class AuthUserModel extends RepresentationModel<AuthUserModel> {
 
     private final Long id;
@@ -10,13 +12,5 @@ public class AuthUserModel extends RepresentationModel<AuthUserModel> {
     public AuthUserModel( Long id, String username ) {
         this.id = id;
         this.username = username;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getUsername() {
-        return username;
     }
 }
