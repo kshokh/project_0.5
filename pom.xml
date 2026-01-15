@@ -6,11 +6,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pdp</groupId>
-    <artifactId>book-crud</artifactId>
+    <groupId>uz.pdp</groupId>
+    <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Book CRUD Application</name>
-    <description>Spring MVC CRUD application with search</description>
+    <name>Application</name>
+    <description>Spring application</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -20,7 +20,7 @@
     </parent>
 
     <properties>
-        <java.version>23</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
@@ -73,7 +73,12 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter-hateoas</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
 
     </dependencies>
