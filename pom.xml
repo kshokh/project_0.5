@@ -6,11 +6,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pdp</groupId>
-    <artifactId>book-crud</artifactId>
+    <groupId>uz.pdp</groupId>
+    <artifactId>application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Book CRUD Application</name>
-    <description>Spring MVC CRUD application with search</description>
+    <name>Application</name>
+    <description>Spring MVC application with search</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
